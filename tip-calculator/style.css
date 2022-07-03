@@ -28,22 +28,34 @@ input, button{
     border: none;
     color: orange;
 }
-
 ::placeholder{
     color: orange;
     font-size: 17px;
     font-weight: 600;
 }
 
-button{
+#inputTip{
+    width: 70px;
+    background-image: url(assets/percent.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inputTip, button{
     display: block;
     margin: auto;
+}
+
+button{
     background-color: white;
     border-radius: 8px;
     font-weight: bold;
     font-size: 20px;
 }
 
-input, button, h1{
+input, button, h1, #inputTip{
     margin-bottom: 12px;
 }
