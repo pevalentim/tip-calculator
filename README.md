@@ -1,2 +1,2 @@
 # tip-calculator
- Calcula a porcentagem, valor e valor final com gorjeta.
+Calcula a gorjeta e o valor final.
